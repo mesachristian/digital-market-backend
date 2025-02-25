@@ -48,17 +48,6 @@ packages/
 *.temp
 *.bak
 
-# Ignore Docker and Kubernetes
-**/.dockerignore
-**/Dockerfile
-**/docker-compose*
-**/*.tfstate
-
-# Ignore secrets and configurations
-secrets.json
-appsettings.*.json
-!appsettings.json
-
 # Ignore Azure and hosting files
 local.settings.json
 host.json
@@ -74,9 +63,6 @@ TestResults/
 # Ignore generated client-side files
 node_modules/
 wwwroot/lib/
-
-# Ignore Entity Framework migrations
-Migrations/
 
 # Ignore Python virtual environments (if used)
 venv/

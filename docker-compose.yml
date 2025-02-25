@@ -1,0 +1,6 @@
+services:
+  coursemanagementapi:
+    image: ${DOCKER_REGISTRY-}coursemanagementapi
+    build:
+      context: .
+      dockerfile: src/CourseManagement/CourseManagementApi/Dockerfile
