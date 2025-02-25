@@ -1,0 +1,88 @@
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider specific files
+.idea/
+*.sln.iml
+*.dotCover
+*.resharper*
+
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Ignore user-specific files
+*.rsuser
+*.suo
+*.userprefs
+*.ide*
+*.pidb
+*.dotCover
+*.resharper*
+*.sln.iml
+
+# Ignore logs and debugging files
+*.log
+*.tlog
+*.vspx
+*.vspscc
+*.vsp
+*.pdb
+*.opendb
+*.cache
+*.mdb
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+
+# Ignore Docker and Kubernetes
+**/.dockerignore
+**/Dockerfile
+**/docker-compose*
+**/*.tfstate
+
+# Ignore secrets and configurations
+secrets.json
+appsettings.*.json
+!appsettings.json
+
+# Ignore Azure and hosting files
+local.settings.json
+host.json
+*.publishsettings
+
+# Ignore macOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# Ignore testing files
+TestResults/
+
+# Ignore generated client-side files
+node_modules/
+wwwroot/lib/
+
+# Ignore Entity Framework migrations
+Migrations/
+
+# Ignore Python virtual environments (if used)
+venv/
+
+# Ignore Terraform files
+.terraform/
+
+# Ignore GitHub Actions cache
+.github/workflows/*.log
